@@ -1,0 +1,173 @@
+/*
+Dark Green #073600
+Dark Grey #3c3c3c
+Light Grey #969696
+Light light grey #e1dddd
+ */
+
+#brand img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+#specialize h3 {
+	font-size: 0.9em;
+	color: #073600;
+	font-family: "Baskerville", sans-serif;
+	text-align: right;
+	font-weight: normal;
+	margin-top: 0;
+	padding-top: 0;}
+
+#about h2 {
+	font-family: "Seravek";
+	font-size: 1.3em;
+	font-weight: lighter;
+	}
+
+#aboutwithlinks h2 {
+font-family: "Seravek";
+font-size: 1.3em;
+font-weight: lighter;
+text-align: center;
+}
+
+#aboutwithlinks h3 {
+font-family: "Seravek";
+font-size: 1.1em;
+font-weight: lighter;
+text-align: left;
+}
+
+#container {
+	width: 100%;
+	top: 0;
+	right: 0;
+	left: 0;
+	background-color: #e1dddd;}
+
+#navigation {
+	height: 40px;
+  background: -webkit-linear-gradient(silver 0%, #0736001 15%);
+  background: -o-linear-gradient(silver 0%, #073600 15%);
+  background: -moz-linear-gradient(silver 0%, #073600 15%);
+  background: linear-gradient(silver 0%, #073600 15%);
+  width:100%;
+  }
+
+#navigation ul {
+	padding-left: 3%;
+	padding-right: 0;
+	margin-top: 3%;
+	list-style-type: none;
+	padding-top: 10px;
+	}
+
+#navigation a {
+	text-decoration: none;
+	color: white;
+	font-family: "Seravek", sans-serif;
+	font-weight: lighter;
+	font-size: .9em;
+	line-height: 1.5em;
+	}
+
+#navigation a:hover, a:focus {
+	background-color: #395E33;}
+
+#navigation li {
+	float: left;
+	margin-right: 3%;
+	}
+
+#content {
+	width: 100%;
+	}
+
+#innernav {
+	color: black;
+	font-family: "Baskerville";
+	}
+
+#innernav p{
+	border-style: solid;
+	border-color: #969696;
+	border-width: 2px;
+	border-radius: 20px;
+	background-color: lightGray;
+	text-align: center;
+	padding: 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+	}
+
+#innernav a {
+	color: black;
+	text-decoration:none;}
+
+#innernav a:hover, a:focus {
+	text-decoration: underline;}
+
+#about {
+	color: black;
+	margin: 10px;
+	text-align: center;
+	font-family: "Baskerville";
+	padding: 10px;
+	border-style: solid;
+	border-color: #969696;
+	border-width: 2px;
+	border-radius: 20px;
+	background-color: rgba(265,265,265,0.8);
+	clear: both;
+	}
+
+#aboutwithlinks {
+	color: black;
+	margin: 10px;
+	text-align: left;
+	font-family: "Baskerville";
+	padding: 30px;
+	border-style: solid;
+	border-color: #969696;
+	border-width: 2px;
+	border-radius: 20px;
+	background-color: rgba(265,265,265,0.8);
+	margin-left: 5%;
+	margin-right: 5%;
+	overflow: auto;
+	}
+
+#aboutwithlinks a {
+	text-decoration: none;
+	color:black;
+}
+#aboutwithlinks a:hover, a:focus {
+	text-decoration: underline;
+}
+
+#footer {
+	color: white;
+	font-family: "Seravek", sans-serif;
+	font-weight: lighter;
+	font-size: 0.7em;
+	height: 30px;
+  background: -webkit-linear-gradient(silver 0%, #0736001 15%);
+  background: -o-linear-gradient(silver 0%, #073600 15%);
+  background: -moz-linear-gradient(silver 0%, #073600 15%);
+  background: linear-gradient(silver 0%, #073600 15%);
+  width:100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  line-height: 1.5em;
+	}
+
+#footer a{
+	text-decoration: underline;
+	color: white;
+	}
+
+body {
+	margin: 0;}

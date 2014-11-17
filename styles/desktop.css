@@ -1,0 +1,8 @@
+/* Stylesheet for desktop */
+
+@charset "utf-8";
+
+/* Import stylesheet */
+@import "tablet.css"; 
+
+/* Need to fix the bottom of the footer in this stylesheet */
